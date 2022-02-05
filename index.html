@@ -9,25 +9,37 @@
 </head>
 <body>
     
-    <header class="header">
+    <header class="header header--open">
         <div class="container header__container">
+            
+            <button class="header__btn">
+                <img  class="header__on" src="./images/burger.svg" alt="burger">
+                <img class="header__off" src="./images/cross.svg" alt="burger">
+            </button>
+            
             <div class="header__wrapper">
                 <img class="header__img" src="./images/logo.svg" alt="logo" width="108" height="28">
-                <ul class="header__list">
-                    <li class="header__item">
-                        <a class="header__link" href="#">About</a>
-                    </li>
-                    <li class="header__item">
-                        <a class="header__link" href="#">Location</a>
-                    </li>
-                    <li class="header__item">
-                        <a class="header__link" href="#">Careers</a>
-                    </li>
-                </ul>
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__link" href="#">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Location</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#">Careers</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+            
             <button class="header__button">Get Scootin</button>
+            
         </div>
     </header>
     
+    <script src="./js/main.js"></script>
 </body>
 </html>
