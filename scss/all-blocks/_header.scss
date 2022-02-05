@@ -89,32 +89,26 @@
         &__container {
             padding-left: 22px;
             padding-right: 22px;
+            
         }
         
         &__btn {
             display: block;
         }
         
-        &__on {
+        &__img{
+            transform: translateX(-50%);
         }
         
-        &__off {
-            
-        }
-        
-        &__wrapper {
-        }
-        
-        &__img {
-        }
         
         &__nav {
             position: absolute;
-            background-color: blanchedalmond;
+            background-color: #333A44;;
             top: 100%;
             left: 0;
-            width: 100%;
+            width: 70%;
             height: 100vh;
+            display: none;
         }
         
         &__list {
@@ -127,9 +121,7 @@
             padding-bottom: 12px;
         }
         
-        &__link {
-            
-        }
+        
         
         &__button {
             position: absolute;
@@ -137,13 +129,14 @@
             transform: translate(34px,350px);
             top: 100%;
             left: 0;
+            display: none;
             
         }
         
     }
     
     .header--open .header{
-      
+        
         
         &__on {
             display: none;
@@ -152,9 +145,9 @@
         &__off {
             display: block;
         }
-
+        
         &__nav {
-          display: block;
+            display: block;
         }
     }
 }

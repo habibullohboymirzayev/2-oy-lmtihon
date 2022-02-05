@@ -343,13 +343,18 @@ img {
   .header__btn {
     display: block;
   }
+  .header__img {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
   .header__nav {
     position: absolute;
-    background-color: blanchedalmond;
+    background-color: #333A44;
     top: 100%;
     left: 0;
-    width: 100%;
+    width: 70%;
     height: 100vh;
+    display: none;
   }
   .header__list {
     -webkit-box-orient: vertical;
@@ -374,6 +379,7 @@ img {
             transform: translate(34px, 350px);
     top: 100%;
     left: 0;
+    display: none;
   }
   .header--open .header__on {
     display: none;
