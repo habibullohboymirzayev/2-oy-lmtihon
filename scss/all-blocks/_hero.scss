@@ -1,12 +1,13 @@
 .hero {
     background-image: url(./../images/hero-bg-img.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position:  center;
     background-size: cover;
     object-position: center;
     min-height: 650px;
     z-index: 1;
     position: relative;
+    margin: 0;
     margin-bottom: 160px;
     
     &::before{
@@ -16,7 +17,7 @@
         height: 100%;
         display: inline block;
         background-color: #2f3b59;
-        opacity: 0.3;
+        opacity: 0.5;
         z-index: -1;
     }
     
@@ -105,9 +106,14 @@
 
 @media only screen and( max-width:900px) {
     .hero {
+        background-image: url(./../../images/tablet-bg-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-position: center;
          margin-bottom: 40px;
         &__container {
-            padding: 157px 98px 217px 97px;
+           padding: 137px  98px 217px 97px ;
         }
         
         &__heading {
@@ -153,7 +159,13 @@
 
 @media only screen and (max-width:720px) {
     .hero {
+        background-image: url(./../images/mobile-bg-img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-position: center;
         margin-bottom: 120px;
+
         &__container {
             padding: 115px 32px 179px 32px;
         }

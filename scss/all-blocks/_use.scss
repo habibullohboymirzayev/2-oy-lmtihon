@@ -1,0 +1,179 @@
+.use{
+    &__container{
+        margin-bottom: 152px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__wrapper{
+        max-width: 445px;
+        width: 100%;
+        
+    }
+    
+    &__heading{
+        font-family: 'Space Mono';
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        margin-bottom: 24px;
+    }
+    
+    &__text{
+        font-family: 'Lexend Deca';
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin-bottom: 40px;
+    }
+    
+    &__btn{
+        border: none;
+        padding: 14px 39px;
+        color: #FFFFFF;
+        background: #FCB72B;
+        border: 3px solid #FCB72B;
+        box-sizing: border-box;
+        
+        &:hover{
+            color: #FCB72B;
+            background: #FFFFFF;
+            border: 3px solid #FCB72B;
+        }
+    }
+    
+    &__inner-wapper{
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(./../../images/use-sign.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            transform: translate(-40px,150px);
+            
+        }
+
+        // &::after{
+        //     position: absolute;
+        //     content: "";
+        //     top: 0;
+        //     right: 0;
+        //     width: 100%;
+        //     height: 100%;
+        //     background-image: url(./../../images/sitile-radus.png);
+        //     background-repeat: no-repeat;
+        //     background-position: center;
+        //     transform: translate(100%);
+        //     z-index: 1;
+        // }
+    }
+    
+    &__img{
+        border-radius: 50%;
+        margin-left: 64px;
+    }
+}
+
+@media only screen and(max-width:900px) {
+    .use{
+        margin-bottom: 128px;
+        &__container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        &__wrapper{
+          max-width: 573px;
+          width: 100%;
+          text-align: center;
+            
+        }
+        
+        &__heading{
+           margin-bottom: 40px;
+        }
+        
+        &__text{
+           margin-bottom: 40px;
+        }
+        
+        &__btn{
+            margin-bottom: 56px;
+        }
+        
+        
+        &__img{
+            border-radius: 50%;
+            margin-left: 64px;
+            
+        }
+    }
+    
+}
+
+
+@media only screen and(max-width:900px) {
+    .use{
+        margin-bottom: 120px;
+        &__container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        &__wrapper{
+          max-width: 311px;
+          width: 100%;
+          text-align: center;
+            
+        }
+        
+        &__heading{
+           margin-bottom: 32px;
+        }
+        
+        &__text{
+           margin-bottom: 32px;
+        }
+        
+        &__btn{
+            margin-bottom: 56px;
+        }
+
+        
+        &__inner-wrapper{
+            position: relative;
+            &::before{
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 50%;
+                height: 50%;
+                background-image: url(./../../images/use-sign.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                transform: translate(100% ,10px);
+                
+            }
+        }
+        
+        
+        &__img{
+            border-radius: 50%;
+            margin-left: 64px;
+            width: 70%;
+            height: 70%;
+        }
+    }
+    
+}

@@ -1,13 +1,12 @@
 .sale {
      margin-bottom: 147px;
-    &__container {
-        max-width: 1275px;
-        width: 100%;
-        padding-left: 169px;
-        padding-right: 165px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+     &__container {
+         max-width: 1275px;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         
     }
     
     &__icon {
@@ -28,6 +27,8 @@
             
             
         }
+        
+       
     }
     
     &__radus {
@@ -82,8 +83,8 @@
     .sale {
         margin-bottom: 92px;
         &__container {
-            padding-left: 97px;
-            padding-right: 98px;
+            margin: 0;
+            padding-left: 98px;
             display: block;
             
         }
